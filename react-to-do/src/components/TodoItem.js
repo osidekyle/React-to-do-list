@@ -35,7 +35,7 @@ export class TodoItem extends Component {
  
 //Prop Types
 TodoItem.propTypes={
-    todo:PropTypes.object.isRequired
+    todo:PropTypes.array.isRequired
   }
 
 

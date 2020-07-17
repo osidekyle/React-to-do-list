@@ -4,9 +4,7 @@ import PropTypes from 'prop-types';
 
 class Todos extends Component {
 
-  markComplete=(e)=>{
-        
-  }
+
 
 
 
@@ -19,7 +17,7 @@ class Todos extends Component {
 
 //Prop Types
 Todos.propTypes={
-  todo:PropTypes.object.isRequired
+  todo:PropTypes.array.isRequired
 }
 
 export default Todos;

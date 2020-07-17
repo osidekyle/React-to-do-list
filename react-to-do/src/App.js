@@ -27,13 +27,17 @@ class App extends Component {
   }
 
   markComplete=(id)=>{
-        this.setState({todos: this.state.todos.map(todo=>{
+      
+
+    this.setState({todos: this.state.todos.map(todo=>{
           if(todo.id===id){
-            todo.complete=!todo.completed;
+            todo.completed=!todo.completed;
           }
 
-          return todo
-        })});
+          return todo;
+          
+        }) });
+        
   }
 
   render(){
